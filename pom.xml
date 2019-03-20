@@ -26,7 +26,7 @@
 	<groupId>com.vityuk</groupId>
 	<artifactId>ginger-parent</artifactId>
 	<packaging>pom</packaging>
-	<version>0.3.0-SNAPSHOT</version>
+	<version>0.3.0-X-SNAPSHOT</version>
 	<name>ginger parent</name>
 	<description>Simple type-safe i18n library</description>
 	<url>https://github.com/avityuk/ginger</url>
@@ -183,20 +183,6 @@
                     </execution>
                 </executions>
             </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-gpg-plugin</artifactId>
-                <executions>
-                    <execution>
-                        <id>sign-artifacts</id>
-                        <phase>verify</phase>
-                        <goals>
-                            <goal>sign</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
-
 			<!--<plugin>-->
 				<!--<groupId>org.apache.maven.plugins</groupId>-->
 				<!--<artifactId>maven-checkstyle-plugin</artifactId>-->
