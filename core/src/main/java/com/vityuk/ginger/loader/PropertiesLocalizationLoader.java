@@ -55,8 +55,11 @@ public class PropertiesLocalizationLoader implements LocalizationLoader {
 
     @Override
     public PropertyResolver load(InputStream inputStream) throws IOException {
-        MatchingReader reader = new MatchingReader(new BufferedReader(new InputStreamReader(inputStream)));
-        return load(reader);
+        return load(new BufferedReader(new InputStreamReader(inputStream)));
+    }
+
+    public PropertyResolver load(BufferedReader reader) throws IOException {
+        return load(new MatchingReader(reader));
     }
 
     private PropertyResolver load(MatchingReader reader) throws IOException {
