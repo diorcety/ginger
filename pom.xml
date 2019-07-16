@@ -26,7 +26,7 @@
 	<groupId>com.vityuk</groupId>
 	<artifactId>ginger-parent</artifactId>
 	<packaging>pom</packaging>
-	<version>0.3.0-X-SNAPSHOT</version>
+	<version>0.3.0-X</version>
 	<name>ginger parent</name>
 	<description>Simple type-safe i18n library</description>
 	<url>https://github.com/avityuk/ginger</url>

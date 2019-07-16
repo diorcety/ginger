@@ -20,7 +20,7 @@
     <parent>
         <artifactId>ginger-parent</artifactId>
         <groupId>com.vityuk</groupId>
-        <version>0.3.0-X-SNAPSHOT</version>
+        <version>0.3.0-X</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -36,7 +36,7 @@
         <dependency>
             <groupId>com.vityuk</groupId>
             <artifactId>ginger-core</artifactId>
-            <version>0.3.0-X-SNAPSHOT</version>
+            <version>0.3.0-X</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
